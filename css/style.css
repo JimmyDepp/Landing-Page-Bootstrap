@@ -1,0 +1,23 @@
+:root {
+    --dark-color: #19283f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 45px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
